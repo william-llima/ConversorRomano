@@ -26,8 +26,6 @@ class Conversor{
         }else if($this->valor >=10 and $this->valor < 100 ){
             $strfinal = '';
 
-            
-
             $repeticao = floor($this->valor/10);
             $repeticao2 = ($this->valor % 10);
 
